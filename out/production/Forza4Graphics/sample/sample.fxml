@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<fx:root alignment="CENTER" animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="707.0" prefWidth="786.0" text="FORZA 4" textFill="#fc0707" textOverrun="CENTER_ELLIPSIS" type="TitledPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="366.0" prefWidth="598.0" style="-fx-background-color: #0000ff;">
+         <children>
+            <HBox layoutX="14.0" layoutY="14.0" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <VBox fx:id="vertical1" onMouseClicked="#click1" prefHeight="200.0" prefWidth="100.0" spacing="6.0">
+                     <children>
+                        <Circle fill="WHITE" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" onMouseClicked="#click1" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" onMouseClicked="#click1" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="460.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Circle>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="6.0">
+                     <children>
+                        <Circle fill="WHITE" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="460.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Circle>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="6.0">
+                     <children>
+                        <Circle fill="WHITE" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="460.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Circle>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="114.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="6.0">
+                     <children>
+                        <Circle fill="WHITE" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="460.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Circle>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="218.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="6.0">
+                     <children>
+                        <Circle fill="WHITE" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="460.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Circle>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="322.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="6.0">
+                     <children>
+                        <Circle fill="WHITE" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="460.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Circle>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="530.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" spacing="6.0">
+                     <children>
+                        <Circle fill="WHITE" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="60.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="160.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="260.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="360.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0" />
+                        <Circle fill="WHITE" layoutX="60.0" layoutY="460.0" radius="50.0" stroke="#2b05b5" strokeType="INSIDE" strokeWidth="2.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Circle>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children></AnchorPane>
+  </content>
+   <font>
+      <Font name="Calibri Bold" size="27.0" />
+   </font>
+</fx:root>
